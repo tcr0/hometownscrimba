@@ -1,0 +1,149 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+img {
+    width: 100px;
+}
+
+#hero {
+    background-image: url("./images/torshov.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 340px;
+    width: 720px;
+    margin: 0 auto;
+}
+
+.torshov {
+    border-radius: 10px;
+    color: white;
+    margin-bottom: 2px;
+    background-color: #1d3557;
+    padding: 5px 12px;
+    width: 200px;
+    font-size: 30px;
+}
+
+.description {
+    background-color: #457b9d;
+    color: #ffffff;
+    padding: 5px 25px;
+    border-radius: 10px;
+    width: 400px;
+    font-size: 18px;
+}
+
+/* Activities Section */
+
+.activities-grid {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: stretch;
+    max-width: 710px;
+    gap: 20px;
+}
+
+.activity {
+    width: 200px;
+    text-align: center;
+}
+
+.activity img {
+    border-radius: 50%;
+    transition: all 0.3s ease;
+}
+
+.activity img:hover,
+.activity img:focus {
+    transform: scale(1.1);
+    box-shadow: 0 0 0 3px #1d3557;
+}
+
+.activity {
+    width: 200px;
+}
+
+.activity p {
+    font-size: 14px;
+}
+
+.activity h4 {
+    text-decoration: bold;
+}
+
+.title-activities {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-size: 24px;
+}
+.activities {
+    background: #f1faee;
+    max-width: 720px;
+    height: 375px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    color: #1d3557;
+}
+
+/* Guide Section */
+
+.guide {
+    background: #ffffff;
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 50px 0;
+    color: #1d3557;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.guide-container {
+    background: #a8dadc;
+    border-radius: 10px;
+    width: 400px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    box-shadow: 0px 6px #1d3557;
+}
+
+.guide-card {
+    text-align: center;
+    padding-top: 0;
+}
+.guide-card p {
+    font-size: 16px;
+}
+.guide-photo img {
+    border-radius: 10px;
+    width: 180px;
+}
+
+.guide-topic {
+    font-size: 24px;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+.guide-name {
+    margin-top: 15px;
+}
